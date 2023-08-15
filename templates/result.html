@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Results</title>
+</head>
+<body>
+    <h1>Form Results</h1>
+    <p>Query Course: {{ user_string }}</p>
+    <p>Course Year: {{ year }}</p>
+    <p>TFIDF: {{ tfidf }}</p>
+    <div>{{ html_table | safe }}</div>
+    <div>{{ graph | safe }}</div>
+    <a href="/">Back to form</a>
+</body>
+</html>

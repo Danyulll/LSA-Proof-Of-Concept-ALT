@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Form Example</title>
+</head>
+<body>
+    <h1>Document Similarity</h1>
+    <form action="/result" method="POST">
+        <label for="user_string">Enter a course</label>
+        <input type="text" id="user_string" name="user_string" required>
+        
+        <br><br>
+        
+        <label for="year">Enter a course year</label>
+        <input type="text" id="year" name="year" required>
+        
+        <br><br>
+
+        <label for="tfidf">tfidf (y/n)</label>
+        <input type="text" id="tfidf" name="tfidf" required>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
